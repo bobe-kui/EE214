@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="counter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="counter_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="8 ps"></ZoomEndTime>
+      <Cursor1Time time="0 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="352"></NameColumnWidth>
+      <ValueColumnWidth column_width="119"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/counter_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/seg_cat" type="array">
+      <obj_property name="ElementShortName">seg_cat[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cat[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/seg_an" type="array">
+      <obj_property name="ElementShortName">seg_an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/seg_cat" type="array">
+      <obj_property name="ElementShortName">seg_cat[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cat[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/seg_cat" type="array">
+      <obj_property name="ElementShortName">seg_cat[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cat[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/seg_an" type="array">
+      <obj_property name="ElementShortName">seg_an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/btn" type="array">
+      <obj_property name="ElementShortName">btn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/seg_cat" type="array">
+      <obj_property name="ElementShortName">seg_cat[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cat[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/seg_an" type="array">
+      <obj_property name="ElementShortName">seg_an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D0" type="array">
+      <obj_property name="ElementShortName">D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D1" type="array">
+      <obj_property name="ElementShortName">D1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D2" type="array">
+      <obj_property name="ElementShortName">D2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D3" type="array">
+      <obj_property name="ElementShortName">D3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/seg_output" type="array">
+      <obj_property name="ElementShortName">seg_output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_output[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/anReg" type="array">
+      <obj_property name="ElementShortName">anReg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anReg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/passclk" type="logic">
+      <obj_property name="ElementShortName">passclk</obj_property>
+      <obj_property name="ObjectShortName">passclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/downgrade" type="logic">
+      <obj_property name="ElementShortName">downgrade</obj_property>
+      <obj_property name="ObjectShortName">downgrade</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/btn" type="array">
+      <obj_property name="ElementShortName">btn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/seg_cat" type="array">
+      <obj_property name="ElementShortName">seg_cat[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cat[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/seg_an" type="array">
+      <obj_property name="ElementShortName">seg_an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D0" type="array">
+      <obj_property name="ElementShortName">D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D1" type="array">
+      <obj_property name="ElementShortName">D1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D2" type="array">
+      <obj_property name="ElementShortName">D2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/D3" type="array">
+      <obj_property name="ElementShortName">D3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/seg_output" type="array">
+      <obj_property name="ElementShortName">seg_output[3:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_output[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/anReg" type="array">
+      <obj_property name="ElementShortName">anReg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anReg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/passclk" type="logic">
+      <obj_property name="ElementShortName">passclk</obj_property>
+      <obj_property name="ObjectShortName">passclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_tb/uut/downgrade" type="logic">
+      <obj_property name="ElementShortName">downgrade</obj_property>
+      <obj_property name="ObjectShortName">downgrade</obj_property>
+   </wvobject>
+</wave_config>
