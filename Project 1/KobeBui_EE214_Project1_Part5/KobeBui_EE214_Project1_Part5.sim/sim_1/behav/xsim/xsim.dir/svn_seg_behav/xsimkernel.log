@@ -1,0 +1,7 @@
+Running: xsim.dir/svn_seg_behav/xsimk.exe -simmode gui -wdb svn_seg_behav.wdb -simrunnum 0 -socket 59552
+Design successfully loaded
+Design Loading Memory Usage: 27920 KB (Peak: 27920 KB)
+Design Loading CPU Usage: 280 ms
+Simulation completed
+Simulation Memory Usage: 28988 KB (Peak: 28988 KB)
+Simulation CPU Usage: 343 ms

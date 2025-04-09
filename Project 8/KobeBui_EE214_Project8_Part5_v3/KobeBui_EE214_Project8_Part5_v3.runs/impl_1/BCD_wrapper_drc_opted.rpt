@@ -1,0 +1,63 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Mar 27 10:56:02 2025
+| Host         : Kobe_Jr running 64-bit major release  (build 9200)
+| Command      : report_drc -file BCD_wrapper_drc_opted.rpt -pb BCD_wrapper_drc_opted.pb -rpx BCD_wrapper_drc_opted.rpx
+| Design       : BCD_wrapper
+| Device       : xc7z007sclg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 4
++-------------+----------+-------------------------------------------------------------+--------+
+| Rule        | Severity | Description                                                 | Checks |
++-------------+----------+-------------------------------------------------------------+--------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 3      |
+| ZPS7-1      | Warning  | PS7 block required                                          | 1      |
++-------------+----------+-------------------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT one/bcd_digit[3]_i_2__0 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+two/bcd_digit_reg[0], two/bcd_digit_reg[1], two/bcd_digit_reg[2]
+two/bcd_digit_reg[3]
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT two/bcd_digit[3]_i_2__1 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+three/bcd_digit_reg[0], three/bcd_digit_reg[1], three/bcd_digit_reg[2]
+three/bcd_digit_reg[3]
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT zero/bcd_digit[3]_i_2 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+one/bcd_digit_reg[0], one/bcd_digit_reg[1], one/bcd_digit_reg[2]
+one/bcd_digit_reg[3]
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

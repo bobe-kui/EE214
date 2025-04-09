@@ -1,0 +1,84 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Mar 27 10:56:24 2025
+| Host         : Kobe_Jr running 64-bit major release  (build 9200)
+| Command      : report_drc -file BCD_wrapper_drc_routed.rpt -pb BCD_wrapper_drc_routed.pb -rpx BCD_wrapper_drc_routed.rpx
+| Design       : BCD_wrapper
+| Device       : xc7z007sclg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 8
++-------------+----------+-------------------------------------------------------------+--------+
+| Rule        | Severity | Description                                                 | Checks |
++-------------+----------+-------------------------------------------------------------+--------+
+| PDRC-153    | Warning  | Gated clock check                                           | 4      |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 3      |
+| ZPS7-1      | Warning  | PS7 block required                                          | 1      |
++-------------+----------+-------------------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net one/CLK is a gated clock net sourced by a combinational pin one/bcd_digit[3]_i_2__0/O, cell one/bcd_digit[3]_i_2__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net two/CLK is a gated clock net sourced by a combinational pin two/bcd_digit[3]_i_2__1/O, cell two/bcd_digit[3]_i_2__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net twobit_counter/E[0] is a gated clock net sourced by a combinational pin twobit_counter/segs_reg[6]_i_2/O, cell twobit_counter/segs_reg[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net zero/bcd_digit_reg[2]_0 is a gated clock net sourced by a combinational pin zero/bcd_digit[3]_i_2/O, cell zero/bcd_digit[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT one/bcd_digit[3]_i_2__0 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+two/bcd_digit_reg[0], two/bcd_digit_reg[1], two/bcd_digit_reg[2]
+two/bcd_digit_reg[3]
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT two/bcd_digit[3]_i_2__1 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+three/bcd_digit_reg[0], three/bcd_digit_reg[1], three/bcd_digit_reg[2]
+three/bcd_digit_reg[3]
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT zero/bcd_digit[3]_i_2 is driving clock pin of 4 cells. This could lead to large hold time violations. Involved cells are:
+one/bcd_digit_reg[0], one/bcd_digit_reg[1], one/bcd_digit_reg[2]
+one/bcd_digit_reg[3]
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../KobeBui_EE214_Project3_Part4.srcs/sources_1/new/DashboardIndicator.v" \
+"../../../../KobeBui_EE214_Project3_Part4.srcs/sources_1/new/DashboardIndicator_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

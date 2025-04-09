@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1736986491">
+  <File Type="REPORTS-TCL" Name="rgb_button_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="rgb_button_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="rgb_button.mmi"/>
+  <File Type="OPT-DRC" Name="rgb_button_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="rgb_button.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="rgb_button_route_status.pb"/>
+  <File Type="BG-BGN" Name="rgb_button.bgn"/>
+  <File Type="PLACE-UTIL" Name="rgb_button_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="rgb_button_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="rgb_button_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="rgb_button.bin"/>
+  <File Type="PLACE-CTRL" Name="rgb_button_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="rgb_button_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="rgb_button_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="rgb_button.msk"/>
+  <File Type="BITSTR-RBT" Name="rgb_button.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="rgb_button_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="rgb_button_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="rgb_button_route_status.rpt"/>
+  <File Type="PA-TCL" Name="rgb_button.tcl"/>
+  <File Type="ROUTE-PWR" Name="rgb_button_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="rgb_button_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="rgb_button_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="rgb_button_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="rgb_button.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="rgb_button_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="rgb_button_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="rgb_button.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="rgb_button_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="rgb_button_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="rgb_button.vdi"/>
+  <File Type="ROUTE-CLK" Name="rgb_button_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="rgb_button_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="rgb_button_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="rgb_button_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="rgb_button_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="rgb_button_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="rgb_button_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="rgb_button_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="rgb_button_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="rgb_button.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="rgb_button_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="rgb_button.nky"/>
+  <File Type="BITSTR-BMM" Name="rgb_button_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="rgb_button.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="rgb_button_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="rgb_button_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="rgb_button_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="rgb_button_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="rgb_button_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="rgb_button_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="rgb_button_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="rgb_button_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="rgb_button_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="rgb_button_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="rgb_button_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="rgb_button.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="rgb_button_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="rgb_button_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="rgb_button.rcfi"/>
+  <File Type="CFI_FILE" Name="rgb_button.cfi"/>
+  <File Type="RNPI_FILE" Name="rgb_button.rnpi"/>
+  <File Type="NPI_FILE" Name="rgb_button.npi"/>
+  <File Type="RBD_FILE" Name="rgb_button.rbd"/>
+  <File Type="ROUTE-RQS" Name="rgb_button_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="rgb_button_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/rgb_button.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="rgb_button"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/rgb_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/rgb_button.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

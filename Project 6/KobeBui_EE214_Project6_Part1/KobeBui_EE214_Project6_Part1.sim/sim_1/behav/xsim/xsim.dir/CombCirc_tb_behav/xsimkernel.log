@@ -1,0 +1,7 @@
+Running: xsim.dir/CombCirc_tb_behav/xsimk.exe -simmode gui -wdb CombCirc_tb_behav.wdb -simrunnum 0 -socket 63932
+Design successfully loaded
+Design Loading Memory Usage: 28536 KB (Peak: 28536 KB)
+Design Loading CPU Usage: 655 ms
+Simulation completed
+Simulation Memory Usage: 29476 KB (Peak: 29476 KB)
+Simulation CPU Usage: 702 ms

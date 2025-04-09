@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/clkdiv.v" \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/counter.v" \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/decoder.v" \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/mux.v" \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/seven_seg.v" \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/twobit_counter.v" \
+"../../../../../KobeBui_EE214_Project8_Part1/KobeBui_EE214_Project8_Part1.srcs/sources_1/new/wrapper.v" \
+"../../../../KobeBui_EE214_Project8_part5v2.srcs/sources_1/new/counter_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

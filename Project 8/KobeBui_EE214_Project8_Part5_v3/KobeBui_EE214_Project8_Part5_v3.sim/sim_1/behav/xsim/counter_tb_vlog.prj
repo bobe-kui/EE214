@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/new/BCD.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/new/BCD_wrapper.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/new/clk_divider.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/imports/new/decoder.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/new/dff.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/imports/new/mux.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/new/sev_seg.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/imports/new/twobit_counter.v" \
+"../../../../KobeBui_EE214_Project8_Part5_v3.srcs/sources_1/new/counter_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
